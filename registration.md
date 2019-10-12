@@ -1,17 +1,13 @@
 ---
-title: Reference people
+title: Registration
 ---
 
-# Program committee:
-- Ivan Di Liberti (Masaryk University, Brno)
+## Registration
 
-- Andrea Montoli (Università degli studi di Milano)
+If you want to attend the workshop please send an e-mail to [andrea.montoli@unimi.it](mailto:andrea.montoli@unimi.it) until *November 30th 2019*.
 
-- Alessio Santamaria (Queen Mary, University of London)
+### Abstract submission
 
-# Local committee:
-- Cipriano Jr. Cioffo (Università degli studi di Milano)
+If you want to give a talk please submit an abstract (max 1 page) sending an e-mail to [andrea.montoli@unimi.it](mailto:andrea.montoli@unimi.it) until *November 15th 2019*.
 
-- Davide Di Micco (Università degli studi di Milano)
-
-- Andrea Montoli (Università degli studi di Milano)
+_The talks will last 30 minutes plus few minutes for questions._

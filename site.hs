@@ -16,7 +16,6 @@ main = hakyll $ do
         compile compressCssCompiler
 
     match (fromList [ "programme.md"
-                    , "contact.md"
                     , "registration.md"
                     , "participants.md"
                     ]) $ do
@@ -24,6 +23,13 @@ main = hakyll $ do
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
+
+    match  "contact.md" $ do
+        route   $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/cont-default.html" defaultContext
+            >>= relativizeUrls
+
 
     match "index.html" $ do
         route idRoute
