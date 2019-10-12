@@ -5,9 +5,9 @@ title: Reference people
 
 
 #### Program committee:
-- Ivan Di Liberti (Masaryk University, Brno)
-- Andrea Montoli (Università degli studi di Milano)
-- Alessio Santamaria (Queen Mary, University of London)
+- [Ivan Di Liberti (Masaryk University, Brno)](http://www.math.muni.cz/~diliberti/)
+- [Andrea Montoli (Università degli studi di Milano)](https://www.unimi.it/it/ugov/person/andrea-montoli)
+- [Alessio Santamaria (Queen Mary, University of London)](https://www.researchgate.net/profile/Alessio_Santamaria)
 
 #### Local committee:
 - Cipriano Jr. Cioffo (Università degli studi di Milano)
