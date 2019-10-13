@@ -17,6 +17,10 @@ nav {
   text-align: right;
 }
 
+img[alt=drawing] {
+  width: 100%;
+}
+
 nav a {
   font-size: 1.8rem;
   font-weight: bold;
@@ -26,6 +30,10 @@ nav a {
 }
 
 p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+tbody, li, ul, table {
   font-family: 'Open Sans', sans-serif;
 }
 

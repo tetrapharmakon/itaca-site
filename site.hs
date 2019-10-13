@@ -1,10 +1,7 @@
---------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend)
-import           Hakyll
+import Data.Monoid (mappend)
+import Hakyll
 
-
---------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
   match "images/*" $ do
@@ -17,33 +14,22 @@ main = hakyll $ do
 
   match (fromList [ "programme.md"
                   , "registration.md"
+                  , "contact.md"
                   , "participants.md"
+                  , "index.md"
                   ]) $ do
     route   $ setExtension "html"
     compile $ pandocCompiler
       >>= loadAndApplyTemplate "templates/default.html" defaultContext
       >>= relativizeUrls
-
-  match  "contact.md" $ do
-    route   $ setExtension "html"
-    compile $ pandocCompiler
-      >>= loadAndApplyTemplate "templates/cont-default.html" defaultContext
-      >>= relativizeUrls
-
-  match "index.html" $ do
-    route idRoute
-    compile $ do
-      let indexCtx = constField "title" "ItaCa Liber I" `mappend` defaultContext
-
-      getResourceBody
-        >>= applyAsTemplate indexCtx
-        >>= loadAndApplyTemplate "templates/default.html" indexCtx
-        >>= relativizeUrls
+  --
+  -- match "index.md" $ do
+  --   route $ setExtension "html"
+  --   compile $ pandocCompiler
+  --   compile $ do
+  --
+  --     getResourceBody
+  --       >>= loadAndApplyTemplate "templates/default.html" defaultContext
+  --       >>= relativizeUrls
 
   match "templates/*" $ compile templateBodyCompiler
-
---------------------------------------------------------------------------------
-postCtx :: Context String
-postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
-    defaultContext
