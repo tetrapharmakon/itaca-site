@@ -4,19 +4,19 @@ title: Reference people
 
 #### Program committee
 
-|          |  |             |                                                  |
-|----------|--|:------------|:-------------------------------------------------|
-| Ivan     |  | Di Liberti  | [(Masaryk University, Brno)](http://www.math.muni.cz/~diliberti/)  |
-| Andrea   |  | Montoli     | [(Università degli studi di Milano)](https://www.unimi.it/it/ugov/person/andrea-montoli)  |
-| Alessio  |  | Santamaria  | [(Queen Mary, University of London)](https://www.researchgate.net/profile/Alessio_Santamaria)  |
+|          |             |                                                  |
+|----------|:------------|:-------------------------------------------------|
+| Ivan     | Di Liberti  | [(MU, Brno)](http://www.math.muni.cz/~diliberti/)  |
+| Andrea   | Montoli     | [(uniMI, Milan)](https://www.unimi.it/it/ugov/person/andrea-montoli)  |
+| Alessio  | Santamaria  | [(QMUL, London)](https://www.researchgate.net/profile/Alessio_Santamaria)  |
 
 
 #### Local committee
-|              |  |          |                                    |
-|--------------|--|:---------|:-----------------------------------|
-| Cipriano Jr. |  |  Cioffo  | (Università degli studi di Milano) |
-| Davide       |  | Di Micco | (Università degli studi di Milano) |
-| Andrea       |  | Montoli  | (Università degli studi di Milano) |
+|              |          |                |
+|--------------|:---------|:---------------|
+| Cipriano Jr. | Cioffo   | (uniMI, Milan) |
+| Davide       | Di Micco | (uniMI, Milan) |
+| Andrea       | Montoli  | (uniMI, Milan) |
 
 
 ------
